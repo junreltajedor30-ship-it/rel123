@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    
+    <nav class="navbar">
+
+        <div class="nav-logo">
+            ✦ MY PORTFOLIO
+        </div>
+
+        <div class="nav-menu">
+            <a href="#home">Home</a>
+            <a href="#about">about</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#album">Album</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <button id="themeButton">☾</button>
+
+    </nav>
+
+
+
+    <section id="home" class="hero">
+
+        <div class="hero-decoration star-one"></div>
+        <div class="hero-decoration star-two">✧</div>
+        <div class="hero-decoration star-three"></div>
+
+        <div class="hero-text">
+
+            <p class="small-title"></p>
+
+            <h1>
+               hello, <br>
+                it's me<span> JUNREL</span>
+            </h1>
+
+            <p class="intro">
+                
+            </p>
+
+            <a href="#about" class="explore-button">
+                Explore My World →
+            </a>
+
+        </div>
+
+
+        <div class="profile-frame">
+
+            <div class="tape"></div>
+
+            <img src="img1 . jpg" alt="My Profile Picture">
+
+            <p>IT'S Me</ p>
+
+        </div>
+
+    </section>
+
+
+
+    
+
+    <section id="about" class="about-section">
+
+        <div class="section-heading">
+
+            <p></p>
+
+            <h2>about</h2>
+
+        </div>
+
+
+        <div class="journal">
+
+            <div class="journal-photo">
+
+                <div class="paper-tape"></div>
+
+                <img src="img2 . jpg" alt="My Photo">
+
+                <p><br>it me</p>
+
+            </div>
+
+
+            <div class="journal-content">
+
+                <p class="hello">Dear Sir,</p>
+
+                <p>
+                    My name is <strong>Junrel Tajedor</strong>, and I am
+                    currently studying <strong>Bachelor of Science in Imformation Technology (BSIT)</strong>.
+                </p>
+
+                <p>
+                    I created this portfolio to introduce myself, as an It student,
+                    share some of my interests, in technology, programming, web development, and other things 
+                    I learn throughout my studies.
+                </p>
+
+                <p>
+                    As an IT student, I am interested in learning how technology works
+                    and how I can use my skills to create useful and meaningful projects.
+                    This website is a small piece of my journey as an IT student.
+                </p>
+
+                <div class="signature">
+                    JUNREL TAJEDOR✎
+                </div>
+
+            </div>
+
+        </div>
+
+
+        
+
+        <div class="info-board">
+
+            <h3>✦ Personal Information</h3>
+
+            <div class="info-grid">
+
+                <div>
+                    <span>FULL NAME</span>
+                    <p>JUNREL R. TAJEDOR</p>
+                </div>
+
+                <div>
+                    <span>NICKNAME</span>
+                    <p>JUNJUN</p>
+                </div>
+
+                <div>
+                    <span>BIRTHDAY</span>
+                    <p>FEBRUARY, 24, 2007</p>
+                </div>
+
+                <div>
+                    <span>COURSE</span>
+                    <p>BSIT</p>
+                </div>
+
+                <div>
+                    <span>SCHOOL</span>
+                    <p>CPSU</p>
+                </div>
+
+                <div>
+                    <span>LOCATION</span>
+                    <p>SAN CARLOS CITY</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+  </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    
+    <section id="hobbies" class="hobbies-section">
+
+        <div class="section-heading">
+
+            <p></p>
+
+            <h2>My Hobbies</h2>
+
+        </div>
+
+
+        <div class="hobby-container">
+
+            <button class="hobby-card" onclick="showHobby('VALLEY BALL')">
+
+                <span></span>
+
+                <h3>DANCING</h3>
+
+                <p></p>
+
+            </button>
+
+
+            <button class="hobby-card" onclick="showHobby('Cooking')">
+
+                <span></span>
+
+                <h3>Cooking</h3>
+
+                <p></p>
+
+            </button>
+
+
+            <button class="hobby-card" onclick="showHobby('Music')">
+
+                <span></span>
+
+                <h3>Music</h3>
+
+                <p></p>
+
+            </button>
+
+
+            <button class="hobby-card" onclick="showHobby('Anime')">
+
+                <span></span>
+
+                <h3>waching video </video></h3>
+
+                <p></p>
+
+            </button>
+
+        </div>
+
+
+        
+
+        <div id="hobbyMessage" class="hobby-message">
+
+            <p>Click a hobby to learn why I enjoy it. ✦</p>
+
+        </div>
+
+    </section>
+
+
+
+    
+
+    <section id="album" class="album-section">
+
+        <div class="section-heading">
+
+            <p></p>
+
+            <h2>Photo Album</h2>
+
+        </div>
+
+
+        <p class="album-intro">
+            A few captured moments from my life.
+        </p>
+
+
+        <div class="album">
+
+            <div class="photo photo-large">
+
+                <img src="img3 . jpg"
+                     alt="Memory 1"
+                     onclick="openPhoto(this)">
+
+                <span>01</span>
+
+            </div>
+
+
+            <div class="photo">
+
+                <img src="img4 . jpg"
+                     alt="Memory 2"
+                     onclick="openPhoto(this)">
+
+                <span>02</span>
+
+            </div>
+
+
+            <div class="photo">
+
+                <img src="img5 . jpg"
+                     alt="Memory 3"
+                     onclick="openPhoto(this)">
+
+                <span>03</span>
+
+            </div>
+
+
+            <div class="photo">
+
+                <img src="img6 . jpg"
+                     alt="Memory 4"
+                     onclick="openPhoto(this)">
+
+                <span>04</span>
+
+            </div>
+
+
+            <div class="photo photo-wide">
+
+                <img src="img7 . jpg"
+                     alt="Memory 5"
+                     onclick="openPhoto(this)">
+
+                <span>05</span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    
+
+    <div id="photoModal" class="photo-modal">
+
+        <button class="close-button" onclick="closePhoto()">
+            ×
+        </button>
+
+        <img id="bigPhoto" src="" alt="Large photo">
+
+    </div>
+
+
+
+     
+
+    <section id="contact" class="contact-section">
+
+        <div class="section-heading">
+
+            <p></p>
+
+            <h2>Let's Connect</h2>
+
+        </div>
+
+
+        <div class="contact-box">
+
+            <p>
+                Want to know more about me?
+                You can find me here:
+            </p>
+
+            <div class="contact-links">
+
+                <a href="#">Facebook</a>
+
+                <a href="#">Instagram</a>
+
+                <a href="#">Email</a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    
+
+    <footer>
+
+        <p>✦ MY LITTLE UNIVERSE ✦</p>
+
+        <small>
+            Made with HTML, CSS & JavaScript
+        </small>
+
+        <small>
+            © 2026 junrel tajedor
+        </small>
+
+    </footer>
+
+
+    
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
